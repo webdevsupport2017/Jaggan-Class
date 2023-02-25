@@ -1,0 +1,33 @@
+.boxout {
+        margin: 15px;
+        margin-right: auto;
+        margin-left: auto;
+            }
+
+    .first {
+        padding: 0.01em 100px;
+        display: inline-block;
+        background-color: #d7d7e7;
+    }
+
+    .second {
+        padding: 0.01em 100px;
+        display: inline-block;
+        background-color: #d7d7e7;
+    }
+
+    .third {
+        padding: 0.01em 100px;
+        display: inline-block;
+        background-color: #d7d7e7;
+    }
+
+    @media screen and (max-width: 500px) {
+  
+        .first,
+        .second,
+        .third {
+            width: 100%;
+            
+        }
+    }
